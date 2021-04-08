@@ -1,0 +1,63 @@
+.text {
+	-fx-font-smoothing-type: gray;
+}
+
+.menu-button {
+	-fx-background-color: #2D2A27;
+	-fx-text-fill: #FFFFFF;
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-background-radius: 0;
+	-fx-background-insets: 0;
+}
+
+.menu-button:hover {
+	-fx-background-color: #484848;
+}
+
+.menu-button-active {
+	-fx-background-color: #4D75FB;
+	-fx-text-fill: #FFFFFF;
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-background-radius: 0;
+	-fx-background-insets: 0;
+}
+
+.menu-button-active:hover {
+	-fx-background-color: #4D75FB;
+}
+
+TextField {
+	-fx-border-color: #E8E8E8;
+	-fx-border-width: 0 0 5 0;
+	-fx-text-box-border: red;
+	-fx-focus-color: transparent;
+	-fx-background-insets: 0;
+	-fx-background-color: transparent;
+}
+
+.primary-button {
+	-fx-background-color: #4D75FB;
+	-fx-text-fill: #FFFFFF;
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-background-radius: 50;
+	-fx-background-insets: 0;
+}
+
+.primary-button:hover {
+	-fx-background-color: #6A8CFF;
+}
+
+.primary-button:pressed {
+	-fx-background-color: #F3C221;
+}
+
+VBox, BorderPane {
+	-fx-background-color: #FFFFFF;
+}
+
+.table-row-cell:selected {
+   -fx-background-color: #4D75FB;   
+}
